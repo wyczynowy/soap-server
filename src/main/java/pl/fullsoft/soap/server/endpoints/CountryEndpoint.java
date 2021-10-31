@@ -6,13 +6,13 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 import pl.fullsoft.soap.server.repositories.CountryRepository;
-import pl.fullsoft.soap_server.gen.GetCountryRequest;
-import pl.fullsoft.soap_server.gen.GetCountryResponse;
+import pl.fullsoft.soap_server.countries.GetCountryRequest;
+import pl.fullsoft.soap_server.countries.GetCountryResponse;
 
 @Endpoint
 public class CountryEndpoint {
 
-    private static final String NAMESPACE_URI = "http://www.fullsoft.pl/soap-server/gen";
+    private static final String NAMESPACE_URI = "http://www.fullsoft.pl/soap-server/countries";
 
     private final CountryRepository countryRepository;
 

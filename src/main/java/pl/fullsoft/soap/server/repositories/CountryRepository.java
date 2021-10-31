@@ -1,8 +1,8 @@
 package pl.fullsoft.soap.server.repositories;
 
 import org.springframework.stereotype.Component;
-import pl.fullsoft.soap_server.gen.Country;
-import pl.fullsoft.soap_server.gen.Currency;
+import pl.fullsoft.soap_server.countries.Country;
+import pl.fullsoft.soap_server.countries.Currency;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
